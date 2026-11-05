@@ -248,6 +248,8 @@ def build():
 def index_pages(weeks, items):
     cnt = Counter(x for it in items if it['role'] == 'list' for x in (it['labels'] or ['confirmed']))
     sel = sum(1 for it in items if it['role'] == 'list')
+    multi = sum(1 for it in items if it['role'] == 'list' and len(it['labels']) > 1)
+    assert {tuple(it['labels']) for it in items if it['role'] == 'list' and len(it['labels']) > 1} <= {('outside its week', 'inaccurate as stated')}
     by = defaultdict(list)
     for w in weeks: by[w['m']].append(w)
     rows = []
@@ -267,7 +269,7 @@ def index_pages(weeks, items):
 <p>January’s five weeks and the week of February 3–9 were reconstructed in October 2026 for this volume. They are included, marked as reconstructed, and are not historical posts.</p>
 <p><a class="btn" href="search.html">Search by keyword, date, model or label</a> <a class="btn ghost" href="about.html">About this edition</a></p>
 </div><div class="box"><h3>{sel} selections, labeled</h3><ul class="legend-list">{legend}</ul>
-<p class="small">Fact-checks of another model’s list and instructions are kept with their posts but are not selections and carry no label.</p></div></div>
+<p class="small">{multi} selections carry two labels, outside its week and inaccurate as stated, so the counts above add up to {sum(cnt.values())}, not {sel}. Fact-checks of another model’s list and instructions are kept with their posts but are not selections and carry no label.</p></div></div>
 {''.join(rows)}'''
     (OUT / 'index.html').write_text(page('AI by AI Weekly Top 5: The 2025 Collection · Historical Edition', body, 0,
                                          'Every 2025 post as captured, with dated labels and review records kept separate from the text.'))
