@@ -1,0 +1,51 @@
+{
+ "records": 786,
+ "claims": 783,
+ "in_families": 99,
+ "outside_families": 684,
+ "outside_families_with_v2_1_source_attribution": 18,
+ "outside_families_attributed_in_step6": 684,
+ "by_half": {
+  "Claude Opus 5.5": 304,
+  "GPT-6 Astra": 380
+ },
+ "voice": {
+  "attributed": 131,
+  "actor (reported)": 217,
+  "panel": 336
+ },
+ "basis": {
+  "quote": 206,
+  "none": 32,
+  "n.a. (panel\u2019s own view)": 336,
+  "post source": 110
+ },
+ "named_attribution_nonpanel": 283,
+ "unnamed_nonpanel": 65,
+ "document_opened": {
+  "no": 416,
+  "n.a.": 46,
+  "yes": 151,
+  "unavailable": 71
+ },
+ "document_supports_when_opened": {
+  "no": 50,
+  "yes": 62,
+  "n.a.": 4,
+  "partly": 35
+ },
+ "by_half_opened": {
+  "Claude": {
+   "no": 162,
+   "n.a.": 46,
+   "yes": 62,
+   "unavailable": 34
+  },
+  "GPT": {
+   "no": 254,
+   "yes": 89,
+   "unavailable": 37
+  }
+ },
+ "changes_logged": 399
+}

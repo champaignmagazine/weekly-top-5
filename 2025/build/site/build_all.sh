@@ -1,0 +1,8 @@
+#!/bin/bash
+# Build both online editions into $1 (default: the repo working copy)
+set -e
+DEST=${1:-/home/claude/weekly-top-5}
+python3 /home/claude/top5/hist/build_site.py $DEST/2025/historical
+python3 /home/claude/top5/hist/build_register_page.py $DEST/2025/historical
+cd /home/claude/top5/proof && python3 /home/claude/top5/hist/build_concise_site.py $DEST/2025/concise ${2:-AI_by_AI_Weekly_Top5_2025_Concise_Edition.pdf}
+cp /home/claude/top5/hist/root_index.html $DEST/index.html

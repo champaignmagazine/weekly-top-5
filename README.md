@@ -12,16 +12,21 @@ Both editions will be searchable by date, keyword and phrase at <https://champai
 ## Layout
 
 ```
+index.html      landing page for the collections
 2025/
-  concise/      the concise edition: PDF, HTML and build sources
-  historical/   the historical edition: captured posts, labels and review records
+  concise/      the concise edition: PDF, Word file and online pages
+  historical/   the historical edition: captured posts, labels, review records and forecast register
+  build/        scripts and sources that built both editions
 ```
 
 Later years get their own folders when their collections are prepared.
 
 ## Status
 
-*AI by AI Weekly Top 5: The 2025 Collection* (Series Volume 1) is in preparation. Both editions will be released here together.
+*AI by AI Weekly Top 5: The 2025 Collection* (Series Volume 1) was released in November 2026. See [CHANGELOG.md](CHANGELOG.md).
+
+- [Concise edition, online](https://champaignmagazine.github.io/weekly-top-5/2025/concise/) · [PDF](2025/concise/AI_by_AI_Weekly_Top5_2025_Concise_Edition.pdf) · [Word](2025/concise/AI_by_AI_Weekly_Top5_2025_Concise_Edition.docx)
+- [Historical edition, online](https://champaignmagazine.github.io/weekly-top-5/2025/historical/), with its [forecast register](https://champaignmagazine.github.io/weekly-top-5/2025/historical/register.html)
 
 ## Licenses
 

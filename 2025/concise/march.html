@@ -1,0 +1,188 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>March 2025 · Concise Edition</title><meta name="description" content="March 2025">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css"></head><body class="concise">
+<header class="site"><div class="wrap"><a class="brand" href="index.html">AI by AI Weekly Top 5 <span>· The 2025 Collection · Concise Edition</span></a>
+<nav><a href="index.html">Contents</a><a href="search.html">Search</a><a href="../historical/index.html">Historical edition</a></nav></div></header>
+<main class="wrap"><nav class="pn"><a href="february.html">← February 2025</a><a href="index.html">Contents</a><a href="april.html">April 2025 →</a></nav><div class="chapter"><section class="opener">
+  <div class="kicker">AI by AI Weekly Top 5 · The 2025 Collection</div>
+  <h1>March 2025</h1>
+  <div class="theme">Agents, Reasoning</div>
+  
+  <div class="colophon">
+    <p>Edited from five posts published in March 2025, covering February 24–March 30.</p>
+  </div>
+</section><section class="intro"><div class="kicker">Introduction</div><h2>March 2025</h2><h4>Major events</h4><p>March was the month the frontier models learned to think on request and agents began to act. Claude 3.7 Sonnet offered an extended-thinking mode with a thinking budget developers could set; OpenAI previewed GPT-4.5, built on scaled-up pre-training rather than added reasoning; Google introduced Gemini 2.5 Pro, built to reason before answering; and OpenAI’s native image generation in GPT-4o drew wide attention. Manus previewed an agent that could build a website or plan a trip, and Moderne and Salesforce moved agents into code maintenance and business workflows.</p><p>Capital and policy rounded out the month. OpenAI submitted its proposals for the US AI Action Plan, SoftBank agreed to buy the chip designer Ampere for $6.5 billion, Nvidia expanded its Cosmos tools for robotics, and Elon Musk folded X into xAI in an all-stock deal. The Computer History Museum, meanwhile, released the original 2012 source code of AlexNet.</p><h4>Patterns and trends</h4><p>Reasoning became something users and developers could switch on and budget, and measurement grew more demanding to keep up. METR estimated that the length of tasks agents could complete was doubling roughly every seven months; ARC-AGI-2 showed how far current systems fell short on abstract puzzles; and a working paper found ChatGPT less swayed than federal judges by legally irrelevant facts. The open-model world kept pace with the closed one: DeepSeek published a week of its infrastructure tools and updated V3, Alibaba opened Wan2.1 for video, Baidu released ERNIE 4.5 and the ERNIE X1 reasoning model, and Skywork extended reasoning to images.</p><h4>Long-term threads</h4><p>Reasoning on request spread through the year: o3 and Gemini 2.5 Flash’s adjustable thinking in April, Claude Opus 4 and Sonnet 4 in May, GPT-5’s router between fast and deep answers in August, and GPT-5.1’s adaptive reasoning in November. METR’s doubling estimate gave a yardstick for the agents that followed, from ChatGPT agent in July to coding agents built for long tasks in November. GPT-4o’s image generation reached developers in April, and OpenAI’s policy proposals fed the process that produced America’s AI Action Plan in July.</p></section><section class="week"><div class="weekhead"><div class="kicker">Week 9</div><h2>February 24–March 2</h2><div class="pub">Original post published March 3, 2025</div></div><article id="P-2025-W09-01">
+  <div class="head"><div class="code"><a href="#P-2025-W09-01">P-2025-W09-01</a></div>
+  <h3>Claude 3.7 Sonnet offers two modes of response</h3>
+  <div class="dateline">February 24</div>
+  <p>Anthropic released Claude 3.7 Sonnet with standard responses and an extended-thinking mode. API users could set a budget for the model’s thinking tokens. The release was available through Claude, Anthropic’s API, Amazon Bedrock and Google Cloud’s Vertex AI; extended thinking was excluded from the free Claude tier.<sup class="n"><a href="#s-claude37">1</a></sup></p></div>
+  <div class="tail"><p class="sig">The design made additional reasoning a choice within one model, with consequences for response time and cost.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W09.html#2025-W09-L2-2">2025-W09-L2-2</a></div></div>
+</article><article id="P-2025-W09-02">
+  <div class="head"><div class="code"><a href="#P-2025-W09-02">P-2025-W09-02</a></div>
+  <h3>DeepSeek shares its infrastructure tools</h3>
+  <div class="dateline">February 24–28</div>
+  <p>DeepSeek’s Open-Source Week published FlashMLA, DeepEP, DeepGEMM, parallelism tools including DualPipe and EPLB, and the 3FS file system. The releases addressed model decoding, communication, matrix operations, workload distribution and storage.<sup class="n"><a href="#s-osw">2</a></sup></p></div>
+  <div class="tail"><p class="sig">Sharing these components exposed the engineering behind model training and inference that benchmarks alone do not describe.</p>
+  <div class="sel">Selected by W.H.L. · Copilot</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W09.html#2025-W09-L1-1">2025-W09-L1-1</a>, <a href="../historical/weeks/2025-W09.html#2025-W09-L1-2">2025-W09-L1-2</a>, <a href="../historical/weeks/2025-W09.html#2025-W09-L1-3">2025-W09-L1-3</a>, <a href="../historical/weeks/2025-W09.html#2025-W09-L1-4">2025-W09-L1-4</a>, <a href="../historical/weeks/2025-W09.html#2025-W09-L1-5">2025-W09-L1-5</a></div></div>
+</article><article id="P-2025-W09-03">
+  <div class="head"><div class="code"><a href="#P-2025-W09-03">P-2025-W09-03</a></div>
+  <h3>Wan2.1 opens video-generation code and weights</h3>
+  <div class="dateline">February 25</div>
+  <p>Alibaba’s Wan team released inference code and model weights for Wan2.1, including text-to-video and image-to-video generation. The repository recorded the release on February 25.<sup class="n"><a href="#s-wan">3</a></sup></p></div>
+  <div class="tail"><p class="sig">The release gave developers access to the models themselves, widening the options for experimentation beyond a hosted video-generation service.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W09.html#2025-W09-L2-3">2025-W09-L2-3</a></div></div>
+</article><article id="P-2025-W09-04">
+  <div class="head"><div class="code"><a href="#P-2025-W09-04">P-2025-W09-04</a></div>
+  <h3>Amazon announces Alexa+</h3>
+  <div class="dateline">February 26</div>
+  <p>Amazon announced Alexa+, a generative-AI version of its assistant designed for more conversational interactions and help with everyday tasks. The company said it would be included with Prime.<sup class="n"><a href="#s-alexa">4</a></sup></p></div>
+  <div class="tail"><p class="sig">The announcement brought generative AI into an established consumer assistant, with the rollout still to come.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W09.html#2025-W09-L2-4">2025-W09-L2-4</a></div></div>
+</article><article id="P-2025-W09-05">
+  <div class="head"><div class="code"><a href="#P-2025-W09-05">P-2025-W09-05</a></div>
+  <h3>GPT-4.5 enters research preview</h3>
+  <div class="dateline">February 27</div>
+  <p>OpenAI released GPT-4.5 as a research preview for ChatGPT Pro users and developers. The company emphasized improvements from scaling pre-training and distinguished the model from systems that spend additional time reasoning before answering.<sup class="n"><a href="#s-gpt45">5</a></sup></p></div>
+  <div class="tail"><p class="sig">The release showed that model development followed more than one approach: larger pre-training runs continued alongside explicit reasoning methods.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W09.html#2025-W09-L2-1">2025-W09-L2-1</a></div></div>
+</article><article id="P-2025-W09-06">
+  <div class="head"><div class="code"><a href="#P-2025-W09-06">P-2025-W09-06</a></div>
+  <h3>Perplexity refreshes voice search on iPhone</h3>
+  <div class="dateline">Reported February 27</div>
+  <p>Perplexity’s iOS app received a redesigned voice mode with six voices and search results linked to spoken answers, TechRadar reported. The update connected voice interaction to the service’s source-linked search interface.<sup class="n"><a href="#s-pplx">6</a></sup></p></div>
+  <div class="tail"><p class="sig">The change concerned how users reached answers and checked their sources by voice.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W09.html#2025-W09-L2-5">2025-W09-L2-5</a></div></div>
+</article></section><section class="week"><div class="weekhead"><div class="kicker">Week 10</div><h2>March 3–9</h2><div class="pub">Original post published March 10, 2025</div></div><article id="P-2025-W10-01">
+  <div class="head"><div class="code"><a href="#P-2025-W10-01">P-2025-W10-01</a></div>
+  <h3>Moddy applies AI to changes across code repositories</h3>
+  <div class="dateline">March 4</div>
+  <p>Moderne announced Moddy, an agent for analyzing and changing code across multiple repositories. It combined a natural-language interface with the company’s code-analysis and transformation platform.<sup class="n"><a href="#s-moddy">7</a></sup></p></div>
+  <div class="tail"><p class="sig">The target was maintenance across an existing codebase, where the scope and consistency of changes matter more than generating new code.</p>
+  <div class="sel">Selected by Gemini 2.0</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W10.html#2025-W10-L2-2">2025-W10-L2-2</a>, <a href="../historical/weeks/2025-W10.html#2025-W10-L3-4">2025-W10-L3-4</a></div></div>
+</article><article id="P-2025-W10-02">
+  <div class="head"><div class="code"><a href="#P-2025-W10-02">P-2025-W10-02</a></div>
+  <h3>Agentforce 2dx extends agents into workflows</h3>
+  <div class="dateline">March 5</div>
+  <p>Salesforce announced Agentforce 2dx, with tools for connecting agents to business systems and workflows beyond a chat interface. The announcement included development, testing and monitoring tools. Full general availability was scheduled for April, with some features arriving earlier.<sup class="n"><a href="#s-agentforce">8</a></sup></p></div>
+  <div class="tail"><p class="sig">The product placed agents inside existing business processes, with integration and oversight built in.</p>
+  <div class="sel">Selected by Gemini 2.0</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W10.html#2025-W10-L2-2">2025-W10-L2-2</a>, <a href="../historical/weeks/2025-W10.html#2025-W10-L3-2">2025-W10-L3-2</a></div></div>
+</article><article id="P-2025-W10-03">
+  <div class="head"><div class="code"><a href="#P-2025-W10-03">P-2025-W10-03</a></div>
+  <h3>Manus previews an agent for multi-step tasks</h3>
+  <div class="dateline">Reported March 6</div>
+  <p>Manus appeared as an invitation-only web preview. Its demonstrations showed tasks such as building a website and preparing a travel itinerary, according to contemporaneous reporting by the South China Morning Post.<sup class="n"><a href="#s-manus">9</a></sup></p></div>
+  <div class="tail"><p class="sig">The demonstrations, compared by some to a “DeepSeek moment,” presented an assistant that could work through a goal across several steps.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W10.html#2025-W10-L1-1">2025-W10-L1-1</a></div></div>
+</article></section><section class="week"><div class="weekhead"><div class="kicker">Week 11</div><h2>March 10–16</h2><div class="pub">Original post published March 16, 2025</div></div><article id="P-2025-W11-01">
+  <div class="head"><div class="code"><a href="#P-2025-W11-01">P-2025-W11-01</a></div>
+  <h3>Research shows DiLoCo training scaling predictably</h3>
+  <div class="dateline">March 12</div>
+  <p>Zachary Charles and colleagues reported scaling laws for DiLoCo, a training method that reduces how often data-parallel training must synchronize. When well tuned, it scaled predictably with model size and could outperform standard data-parallel training, with larger optimal batch sizes.<sup class="n"><a href="#s-diloco">10</a></sup></p></div>
+  <div class="tail"><p class="sig">The work supported training large models across less tightly connected hardware.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W11.html#2025-W11-L1-2">2025-W11-L1-2</a></div></div>
+</article><article id="P-2025-W11-02">
+  <div class="head"><div class="code"><a href="#P-2025-W11-02">P-2025-W11-02</a></div>
+  <h3>OpenAI submits proposals for US AI policy</h3>
+  <div class="dateline">March 13</div>
+  <p>OpenAI submitted recommendations for the US AI Action Plan, addressing regulation, export policy, infrastructure, energy, copyright and government adoption. The company presented the proposals as measures to support US leadership in AI.<sup class="n"><a href="#s-oaipolicy">11</a></sup></p></div>
+  <div class="tail"><p class="sig">The submission showed how an AI developer sought to shape the conditions under which its industry would operate; the plan itself followed in July.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W11.html#2025-W11-L1-1">2025-W11-L1-1</a></div></div>
+</article><article id="P-2025-W11-03">
+  <div class="head"><div class="code"><a href="#P-2025-W11-03">P-2025-W11-03</a></div>
+  <h3>Baidu releases ERNIE 4.5 and ERNIE X1</h3>
+  <div class="dateline">March 16</div>
+  <p>Baidu introduced ERNIE 4.5, a multimodal foundation model, and ERNIE X1, a reasoning model. Individual users could access both through ERNIE Bot without charge. Baidu published its own comparisons with competing models.<sup class="n"><a href="#s-ernie">12</a></sup></p></div>
+  <div class="tail"><p class="sig">The release combined a new model offering with free access for individual users.</p>
+  <div class="sel">Selected by Grok-3 · GPT-4.5</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W11.html#2025-W11-L1-3">2025-W11-L1-3</a>, <a href="../historical/weeks/2025-W11.html#2025-W11-L2-2">2025-W11-L2-2</a></div></div>
+</article></section><section class="week"><div class="weekhead"><div class="kicker">Week 12</div><h2>March 17–23</h2><div class="pub">Original post published March 23, 2025</div></div><article id="P-2025-W12-01">
+  <div class="head"><div class="code"><a href="#P-2025-W12-01">P-2025-W12-01</a></div>
+  <h3>An experiment pits ChatGPT against federal judges</h3>
+  <div class="dateline">March 17</div>
+  <p>A <em>Washington Post</em> column by Jason Willick described a working paper by Eric Posner and Shivam Saran comparing federal judges with ChatGPT on the same case materials. The judges appeared more easily swayed by legally irrelevant factors than the AI.<sup class="n"><a href="#s-judges">13</a></sup></p></div>
+  <div class="tail"><p class="sig">The experiment brought the question of AI in judicial decisions into a mainstream newspaper.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W12.html#2025-W12-L1-2">2025-W12-L1-2</a></div></div>
+</article><article id="P-2025-W12-02">
+  <div class="head"><div class="code"><a href="#P-2025-W12-02">P-2025-W12-02</a></div>
+  <h3>Cosmos expands its physical-AI tools</h3>
+  <div class="dateline">March 18</div>
+  <p>Nvidia announced additions to Cosmos for generating and interpreting data used in physical AI. Cosmos Predict and Cosmos Transfer were openly available, while the reasoning component was offered through early access.<sup class="n"><a href="#s-cosmos">14</a></sup></p></div>
+  <div class="tail"><p class="sig">The tools addressed different parts of building robotics and autonomous systems: generating training material, adapting it and reasoning about physical scenes.</p>
+  <div class="sel">Selected by W.H.L. · Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W12.html#2025-W12-L1-HM2">2025-W12-L1-HM2</a></div></div>
+</article><article id="P-2025-W12-03">
+  <div class="head"><div class="code"><a href="#P-2025-W12-03">P-2025-W12-03</a></div>
+  <h3>Skywork R1V extends reasoning to visual inputs</h3>
+  <div class="dateline">March 18</div>
+  <p>Skywork introduced R1V, a multimodal reasoning model with downloadable weights. The release combined visual inputs with step-by-step reasoning and was recorded in the project’s repository on March 18.<sup class="n"><a href="#s-skywork">15</a></sup></p></div>
+  <div class="tail"><p class="sig">The release extended the reasoning-model approach beyond text, with published evaluations on visual and mathematical tests.</p>
+  <div class="sel">Selected by W.H.L. · Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W12.html#2025-W12-L1-HM4">2025-W12-L1-HM4</a></div></div>
+</article><article id="P-2025-W12-04">
+  <div class="head"><div class="code"><a href="#P-2025-W12-04">P-2025-W12-04</a></div>
+  <h3>METR measures the length of tasks agents can complete</h3>
+  <div class="dateline">March 19</div>
+  <p>METR measured agent performance against the time human experts needed for software and reasoning tasks. At a 50 percent success threshold, the estimated task horizon had doubled roughly every seven months across the historical models studied.<sup class="n"><a href="#s-metr">16</a></sup></p></div>
+  <div class="tail"><p class="sig">The measure expressed task difficulty in human working time, giving agent progress a unit that could be tracked across models.</p>
+  <div class="sel">Selected by W.H.L. · Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W12.html#2025-W12-L1-HM3">2025-W12-L1-HM3</a></div></div>
+</article><article id="P-2025-W12-05">
+  <div class="head"><div class="code"><a href="#P-2025-W12-05">P-2025-W12-05</a></div>
+  <h3>SoftBank agrees to acquire Ampere</h3>
+  <div class="dateline">March 19</div>
+  <p>SoftBank agreed to acquire Ampere Computing for $6.5 billion. The company described Ampere as a designer of energy-efficient computing chips based on the Arm platform. The transaction remained subject to closing conditions.<sup class="n"><a href="#s-ampere">17</a></sup></p></div>
+  <div class="tail"><p class="sig">The agreement expanded SoftBank’s planned investment in the hardware supporting AI.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W12.html#2025-W12-L1-1">2025-W12-L1-1</a></div></div>
+</article><article id="P-2025-W12-06">
+  <div class="head"><div class="code"><a href="#P-2025-W12-06">P-2025-W12-06</a></div>
+  <h3>AlexNet’s original source code becomes available</h3>
+  <div class="dateline">March 20</div>
+  <p>The Computer History Museum released AlexNet’s source code in partnership with Google. AlexNet was the image-recognition neural network developed in 2012 by Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton.<sup class="n"><a href="#s-alexnet">18</a></sup></p></div>
+  <div class="tail"><p class="sig">The release preserved for study how a landmark neural network was built.</p>
+  <div class="sel">Selected by W.H.L. · Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W12.html#2025-W12-L1-HM1">2025-W12-L1-HM1</a></div></div>
+</article><article id="P-2025-W12-07">
+  <div class="head"><div class="code"><a href="#P-2025-W12-07">P-2025-W12-07</a></div>
+  <h3>OpenAI adds transcription and speech-generation models</h3>
+  <div class="dateline">March 20</div>
+  <p>OpenAI released gpt-4o-transcribe and gpt-4o-mini-transcribe for speech recognition, together with gpt-4o-mini-tts for speech generation. The models were available through its API.<sup class="n"><a href="#s-audio">19</a></sup></p></div>
+  <div class="tail"><p class="sig">The release supplied components for voice applications, converting speech into text and generating spoken responses.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W12.html#2025-W12-L1-6">2025-W12-L1-6</a></div></div>
+</article></section><section class="week"><div class="weekhead"><div class="kicker">Week 13</div><h2>March 24–30</h2><div class="pub">Original post published March 30, 2025</div></div><article id="P-2025-W13-01">
+  <div class="head"><div class="code"><a href="#P-2025-W13-01">P-2025-W13-01</a></div>
+  <h3>DeepSeek updates V3</h3>
+  <div class="dateline">March 24–25</div>
+  <p>DeepSeek released V3-0324, an updated version of its V3 model, with downloadable weights under the MIT license. Its model card reported improvements across several evaluated capabilities, including reasoning and coding.<sup class="n"><a href="#s-v3a">20</a><span class="c">,</span><a href="#s-v3b">21</a></sup></p></div>
+  <div class="tail"><p class="sig">The release continued development of a general-purpose model alongside the company’s R1 reasoning family.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W13.html#2025-W13-L1-5">2025-W13-L1-5</a></div></div>
+</article><article id="P-2025-W13-02">
+  <div class="head"><div class="code"><a href="#P-2025-W13-02">P-2025-W13-02</a></div>
+  <h3>ARC-AGI-2 raises the reasoning challenge</h3>
+  <div class="dateline">March 24</div>
+  <p>The ARC Prize team introduced ARC-AGI-2, a new collection of abstract reasoning tasks, alongside its 2025 competition. The launch report showed low scores for the evaluated AI systems and added explicit attention to the cost of solving tasks.<sup class="n"><a href="#s-arc2">22</a></sup></p></div>
+  <div class="tail"><p class="sig">The benchmark sought to expose gaps that earlier tests no longer captured as clearly.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W13.html#2025-W13-L1-4">2025-W13-L1-4</a></div></div>
+</article><article id="P-2025-W13-03">
+  <div class="head"><div class="code"><a href="#P-2025-W13-03">P-2025-W13-03</a></div>
+  <h3>Google introduces Gemini 2.5 Pro Experimental</h3>
+  <div class="dateline">March 25</div>
+  <p>Google introduced Gemini 2.5 Pro Experimental, a model designed to reason before responding. The company reported stronger results on coding and reasoning evaluations and made the experimental model available for use.<sup class="n"><a href="#s-gemini25">23</a></sup></p></div>
+  <div class="tail"><p class="sig">The release brought a new generation of reasoning models into competition, under an experimental label.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W13.html#2025-W13-L1-2">2025-W13-L1-2</a></div></div>
+</article><article id="P-2025-W13-04">
+  <div class="head"><div class="code"><a href="#P-2025-W13-04">P-2025-W13-04</a></div>
+  <h3>GPT-4o adds native image generation</h3>
+  <div class="dateline">March 25</div>
+  <p>OpenAI introduced native image generation in GPT-4o, allowing images to be created and refined within a conversation. The announcement emphasized instruction following, text rendering and the use of uploaded images as context.<sup class="n"><a href="#s-image">24</a></sup></p></div>
+  <div class="tail"><p class="sig">The capability connected visual production to an ongoing dialogue, in which an image could be refined step by step.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W13.html#2025-W13-L1-3">2025-W13-L1-3</a></div></div>
+</article><article id="P-2025-W13-05">
+  <div class="head"><div class="code"><a href="#P-2025-W13-05">P-2025-W13-05</a></div>
+  <h3>Musk announces xAI’s acquisition of X</h3>
+  <div class="dateline">March 28</div>
+  <p>Elon Musk announced that xAI had acquired X in an all-stock transaction. He put X’s equity value at $33 billion, or $45 billion including $12 billion of debt; the figures were valuations stated for the deal, not a cash price.<sup class="n"><a href="#s-xai1">25</a><span class="c">,</span><a href="#s-xai2">26</a></sup></p></div>
+  <div class="tail"><p class="sig">The combination brought an AI developer and a major distribution platform under one corporate arrangement.</p>
+  <div class="sel">Selected by Grok-3</div><div class="hist">In the historical edition: <a href="../historical/weeks/2025-W13.html#2025-W13-L1-1">2025-W13-L1-1</a></div></div>
+</article></section><section class="notes"><div class="nh"><div class="kicker">References</div><h2>Source notes</h2>
+<p class="pub">Sources checked October 26, 2026. Dates distinguish announcements, reports and later updates.</p></div>
+<ol><li id="s-claude37"><span class="num">1</span><div><strong>Anthropic</strong>. Claude 3.7 Sonnet and Claude Code. February 24, 2025.<a class="url" target="_blank" rel="noopener" href="https://www.anthropic.com/news/claude-3-7-sonnet">www.<wbr>anthropic.<wbr>com/<wbr>news/<wbr>claude-<wbr>3-<wbr>7-<wbr>sonnet</a></div></li><li id="s-osw"><span class="num">2</span><div><strong>DeepSeek</strong>. Open Infra Index: February 2025 Open-Source Week. February 24–28, 2025.<a class="url" target="_blank" rel="noopener" href="https://github.com/deepseek-ai/open-infra-index">github.<wbr>com/<wbr>deepseek-<wbr>ai/<wbr>open-<wbr>infra-<wbr>index</a></div></li><li id="s-wan"><span class="num">3</span><div><strong>Wan Team</strong>. Wan2.1 model repository. February 25, 2025 release entry.<a class="url" target="_blank" rel="noopener" href="https://github.com/Wan-Video/Wan2.1">github.<wbr>com/<wbr>Wan-<wbr>Video/<wbr>Wan2.<wbr>1</a></div></li><li id="s-alexa"><span class="num">4</span><div><strong>Amazon</strong>. Introducing Alexa+, the next generation of Alexa. originally February 26, 2025; live page updated July 21, 2026.<a class="url" target="_blank" rel="noopener" href="https://www.aboutamazon.com/news/devices/new-alexa-generative-artificial-intelligence">www.<wbr>aboutamazon.<wbr>com/<wbr>news/<wbr>devices/<wbr>new-<wbr>alexa-<wbr>generative-<wbr>artificial-<wbr>intelligence</a></div></li><li id="s-gpt45"><span class="num">5</span><div><strong>OpenAI</strong>. Introducing GPT-4.5. February 27, 2025.<a class="url" target="_blank" rel="noopener" href="https://openai.com/index/introducing-gpt-4-5/">openai.<wbr>com/<wbr>index/<wbr>introducing-<wbr>gpt-<wbr>4-<wbr>5/<wbr></a></div></li><li id="s-pplx"><span class="num">6</span><div><strong>TechRadar</strong>. Perplexity’s voice mode gets a futuristic makeover on your iPhone. February 27, 2025.<a class="url" target="_blank" rel="noopener" href="https://www.techradar.com/computing/artificial-intelligence/perplexitys-voice-mode-gets-a-futuristic-makeover-on-your-iphone">www.<wbr>techradar.<wbr>com/<wbr>computing/<wbr>artificial-<wbr>intelligence/<wbr>perplexitys-<wbr>voice-<wbr>mode-<wbr>gets-<wbr>a-<wbr>futuristic-<wbr>makeover-<wbr>on-<wbr>your-<wbr>iphone</a></div></li><li id="s-moddy"><span class="num">7</span><div><strong>Moderne</strong>. Moderne Unveils Moddy: The First Multi-Repository AI Code Agent. March 4, 2025.<a class="url" target="_blank" rel="noopener" href="https://moderne.ai/press/moderne-unveils-moddy-the-first-multi-repository-ai-code-agent">moderne.<wbr>ai/<wbr>press/<wbr>moderne-<wbr>unveils-<wbr>moddy-<wbr>the-<wbr>first-<wbr>multi-<wbr>repository-<wbr>ai-<wbr>code-<wbr>agent</a></div></li><li id="s-agentforce"><span class="num">8</span><div><strong>Salesforce</strong>. Agentforce 2dx News Announcement. March 5, 2025.<a class="url" target="_blank" rel="noopener" href="https://www.salesforce.com/in/news/press-releases/2025/03/05/agentforce-2dx-news/">www.<wbr>salesforce.<wbr>com/<wbr>in/<wbr>news/<wbr>press-<wbr>releases/<wbr>2025/<wbr>03/<wbr>05/<wbr>agentforce-<wbr>2dx-<wbr>news/<wbr></a></div></li><li id="s-manus"><span class="num">9</span><div><strong>South China Morning Post</strong>. Another DeepSeek moment? General AI agent Manus shows ability to handle complex tasks. March 6, 2025.<a class="url" target="_blank" rel="noopener" href="https://www.scmp.com/tech/policy/article/3301283/another-deepseek-moment-general-ai-agent-manus-shows-ability-handle-complex-tasks">www.<wbr>scmp.<wbr>com/<wbr>tech/<wbr>policy/<wbr>article/<wbr>3301283/<wbr>another-<wbr>deepseek-<wbr>moment-<wbr>general-<wbr>ai-<wbr>agent-<wbr>manus-<wbr>shows-<wbr>ability-<wbr>handle-<wbr>complex-<wbr>tasks</a></div></li><li id="s-diloco"><span class="num">10</span><div><strong>Zachary Charles and colleagues</strong>. Communication-Efficient Language Model Training Scales Reliably and Robustly: Scaling Laws for DiLoCo. March 12, 2025; arXiv version 1.<a class="url" target="_blank" rel="noopener" href="https://arxiv.org/abs/2503.09799v1">arxiv.<wbr>org/<wbr>abs/<wbr>2503.<wbr>09799v1</a></div></li><li id="s-oaipolicy"><span class="num">11</span><div><strong>OpenAI</strong>. OpenAI’s proposals for the U.S. AI Action Plan. March 13, 2025.<a class="url" target="_blank" rel="noopener" href="https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan/">openai.<wbr>com/<wbr>global-<wbr>affairs/<wbr>openai-<wbr>proposals-<wbr>for-<wbr>the-<wbr>us-<wbr>ai-<wbr>action-<wbr>plan/<wbr></a></div></li><li id="s-ernie"><span class="num">12</span><div><strong>Baidu, via PR Newswire</strong>. Baidu Unveils ERNIE 4.5 and Reasoning Model ERNIE X1, Makes ERNIE Bot Free Ahead of Schedule. March 16, 2025.<a class="url" target="_blank" rel="noopener" href="https://www.prnewswire.com/news-releases/baidu-unveils-ernie-4-5-and-reasoning-model-ernie-x1--makes-ernie-bot-free-ahead-of-schedule-302402490.html">www.<wbr>prnewswire.<wbr>com/<wbr>news-<wbr>releases/<wbr>baidu-<wbr>unveils-<wbr>ernie-<wbr>4-<wbr>5-<wbr>and-<wbr>reasoning-<wbr>model-<wbr>ernie-<wbr>x1-<wbr>-<wbr>makes-<wbr>ernie-<wbr>bot-<wbr>free-<wbr>ahead-<wbr>of-<wbr>schedule-<wbr>302402490.<wbr>html</a></div></li><li id="s-judges"><span class="num">13</span><div><strong>University of Chicago Law School</strong>. AI Research From Eric Posner, Shivam Saran Featured in Washington Post. March 17, 2025.<a class="url" target="_blank" rel="noopener" href="https://www.law.uchicago.edu/news/ai-research-eric-posner-shivam-saran-featured-washington-post">www.<wbr>law.<wbr>uchicago.<wbr>edu/<wbr>news/<wbr>ai-<wbr>research-<wbr>eric-<wbr>posner-<wbr>shivam-<wbr>saran-<wbr>featured-<wbr>washington-<wbr>post</a></div></li><li id="s-cosmos"><span class="num">14</span><div><strong>Nvidia</strong>. NVIDIA Announces Major Release of Cosmos World Foundation Models and Physical AI Data Tools. March 18, 2025.<a class="url" target="_blank" rel="noopener" href="https://nvidianews.nvidia.com/news/nvidia-announces-major-release-of-cosmos-world-foundation-models-and-physical-ai-data-tools">nvidianews.<wbr>nvidia.<wbr>com/<wbr>news/<wbr>nvidia-<wbr>announces-<wbr>major-<wbr>release-<wbr>of-<wbr>cosmos-<wbr>world-<wbr>foundation-<wbr>models-<wbr>and-<wbr>physical-<wbr>ai-<wbr>data-<wbr>tools</a></div></li><li id="s-skywork"><span class="num">15</span><div><strong>Skywork AI</strong>. Skywork-R1V repository: original release announcement. March 18, 2025 entry.<a class="url" target="_blank" rel="noopener" href="https://github.com/SkyworkAI/Skywork-R1V">github.<wbr>com/<wbr>SkyworkAI/<wbr>Skywork-<wbr>R1V</a></div></li><li id="s-metr"><span class="num">16</span><div><strong>METR</strong>. Measuring AI Ability to Complete Long Software Tasks. March 19, 2025; live page also contains later chart updates.<a class="url" target="_blank" rel="noopener" href="https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/">metr.<wbr>org/<wbr>blog/<wbr>2025-<wbr>03-<wbr>19-<wbr>measuring-<wbr>ai-<wbr>ability-<wbr>to-<wbr>complete-<wbr>long-<wbr>tasks/<wbr></a></div></li><li id="s-ampere"><span class="num">17</span><div><strong>SoftBank Group</strong>. Acquisition of Ampere Computing Holdings LLC. March 20, 2025; agreement dated March 19 US time.<a class="url" target="_blank" rel="noopener" href="https://group.softbank/en/news/press/20250320_0">group.<wbr>softbank/<wbr>en/<wbr>news/<wbr>press/<wbr>20250320_<wbr>0</a></div></li><li id="s-alexnet"><span class="num">18</span><div><strong>Computer History Museum</strong>. CHM Releases AlexNet Source Code. March 20, 2025.<a class="url" target="_blank" rel="noopener" href="https://computerhistory.org/blog/chm-releases-alexnet-source-code/">computerhistory.<wbr>org/<wbr>blog/<wbr>chm-<wbr>releases-<wbr>alexnet-<wbr>source-<wbr>code/<wbr></a></div></li><li id="s-audio"><span class="num">19</span><div><strong>OpenAI</strong>. Introducing next-generation audio models in the API. March 20, 2025.<a class="url" target="_blank" rel="noopener" href="https://openai.com/index/introducing-our-next-generation-audio-models/">openai.<wbr>com/<wbr>index/<wbr>introducing-<wbr>our-<wbr>next-<wbr>generation-<wbr>audio-<wbr>models/<wbr></a></div></li><li id="s-v3a"><span class="num">20</span><div><strong>DeepSeek, via Hugging Face</strong>. DeepSeek-V3-0324 model card. March 2025 release.<a class="url" target="_blank" rel="noopener" href="https://huggingface.co/deepseek-ai/DeepSeek-V3-0324">huggingface.<wbr>co/<wbr>deepseek-<wbr>ai/<wbr>DeepSeek-<wbr>V3-<wbr>0324</a></div></li><li id="s-v3b"><span class="num">21</span><div><strong>DeepSeek, via Hugging Face</strong>. DeepSeek-V3-0324 repository commit history. March 24–25, 2025 upload and release history.<a class="url" target="_blank" rel="noopener" href="https://huggingface.co/deepseek-ai/DeepSeek-V3-0324/commits/main">huggingface.<wbr>co/<wbr>deepseek-<wbr>ai/<wbr>DeepSeek-<wbr>V3-<wbr>0324/<wbr>commits/<wbr>main</a></div></li><li id="s-arc2"><span class="num">22</span><div><strong>ARC Prize</strong>. ARC-AGI-2 + ARC Prize 2025 is Live!. March 24, 2025.<a class="url" target="_blank" rel="noopener" href="https://arcprize.org/blog/announcing-arc-agi-2-and-arc-prize-2025">arcprize.<wbr>org/<wbr>blog/<wbr>announcing-<wbr>arc-<wbr>agi-<wbr>2-<wbr>and-<wbr>arc-<wbr>prize-<wbr>2025</a></div></li><li id="s-gemini25"><span class="num">23</span><div><strong>Google DeepMind</strong>. Gemini 2.5: Our most intelligent AI model. March 25, 2025; updated March 26.<a class="url" target="_blank" rel="noopener" href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/">blog.<wbr>google/<wbr>innovation-<wbr>and-<wbr>ai/<wbr>models-<wbr>and-<wbr>research/<wbr>google-<wbr>deepmind/<wbr>gemini-<wbr>model-<wbr>thinking-<wbr>updates-<wbr>march-<wbr>2025/<wbr></a></div></li><li id="s-image"><span class="num">24</span><div><strong>OpenAI</strong>. Introducing 4o Image Generation. March 25, 2025.<a class="url" target="_blank" rel="noopener" href="https://openai.com/index/introducing-4o-image-generation/">openai.<wbr>com/<wbr>index/<wbr>introducing-<wbr>4o-<wbr>image-<wbr>generation/<wbr></a></div></li><li id="s-xai1"><span class="num">25</span><div><strong>Reuters, via Investing.com</strong>. Musk’s social media firm X bought by his AI company, valued at $33 billion. March 28, 2025; updated March 29.<a class="url" target="_blank" rel="noopener" href="https://www.investing.com/news/stock-market-news/musks-xai-buys-social-media-platform-x-for-45-billion-3955500">www.<wbr>investing.<wbr>com/<wbr>news/<wbr>stock-<wbr>market-<wbr>news/<wbr>musks-<wbr>xai-<wbr>buys-<wbr>social-<wbr>media-<wbr>platform-<wbr>x-<wbr>for-<wbr>45-<wbr>billion-<wbr>3955500</a></div></li><li id="s-xai2"><span class="num">26</span><div><strong>Associated Press</strong>. Elon Musk sells X to his own xAI for $33 billion in all-stock deal. March 28, 2025.<a class="url" target="_blank" rel="noopener" href="https://apnews.com/article/b245f463076ac9b72c41f92160dc77eb">apnews.<wbr>com/<wbr>article/<wbr>b245f463076ac9b72c41f92160dc77eb</a></div></li></ol></section></div><nav class="pn"><a href="february.html">← February 2025</a><a href="index.html">Contents</a><a href="april.html">April 2025 →</a></nav></main>
+<footer class="site"><div class="wrap">Concise edition of <em>AI by AI Weekly Top 5: The 2025 Collection</em>, Series Volume 1. Edited by W.H.L., Champaign Magazine, November 2026. Text and data CC BY 4.0; code MIT. <a href="https://github.com/champaignmagazine/weekly-top-5">Source on GitHub</a>.</div></footer>
+</body></html>
