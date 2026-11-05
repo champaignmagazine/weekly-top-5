@@ -161,7 +161,7 @@ def page(title, body, depth=0, desc=''):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{up}assets/style.css"></head><body>
-<header class="site"><div class="wrap"><a class="brand" href="{up}index.html">AI by AI Weekly Top 5 <span>· The 2025 Collection · Historical Edition</span></a>
+<header class="site"><div class="wrap"><div class="brand"><a href="{up}../../index.html">AI by AI Weekly Top 5</a><span class="sep">·</span><a class="sub" href="{up}../index.html">The 2025 Collection</a><span class="sep">·</span><a class="sub" href="{up}index.html">Historical Edition</a></div>
 <nav><a href="{up}index.html">Weeks</a><a href="{up}search.html">Search</a><a href="{up}register.html">Forecasts</a><a href="{up}about.html">About</a><a href="{up}../concise/index.html">Concise edition</a></nav></div></header>
 <main class="wrap">{body}</main>
 <footer class="site"><div class="wrap">Historical edition of <em>AI by AI Weekly Top 5: The 2025 Collection</em>, Series Volume 1. Edited by W.H.L., Champaign Magazine. Posts captured from champaignmagazine.com on October 22, 2026. Text and data CC BY 4.0; code MIT. <a href="https://github.com/champaignmagazine/weekly-top-5">Source on GitHub</a>.</div></footer>
